@@ -1,0 +1,49 @@
+Package: clinicalresponse
+Title: Seizure and Epileptic Medication Response Package
+Version: 0.1.1
+Date: 2016-08-04
+Authors@R: person("Jonathan", "Lee", email = "jonathanelee1993@gmail.com", role = c("aut", "cre"))
+Maintainer: Hannah Allen <hjallen@ufl.edu>
+Description: This package will allow you to calculate response data for a
+    patient's seizure and medication data, giving you a general idea as to the state
+    of a patient at a given time point.
+Depends: R (>= 3.2.2)
+License: GLP-2
+Encoding: UTF-8
+LazyData: TRUE
+Imports:
+    RMySQL,
+    methods,
+    ggplot2,
+    digest,
+    grid,
+    gtable,
+    MASS,
+    plyr,
+    reshape2,
+    scales,
+    stats,
+    dplyr,
+    assertthat,
+    utils,
+    R6,
+    tibble,
+    magrittr,
+    lazyeval,
+    DBI,
+    readxl,
+    tibble,
+    gtable,
+    scales,
+    Rcpp,
+    munsell,
+    colorspace,
+    plyr,
+    lubridate,
+    stringr,
+    stringi,
+    labeling
+ImportFrom: lubridate interval,
+    lubridate dyears,
+    dplyr tbl_df
+RoxygenNote: 5.0.1
